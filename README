@@ -14,11 +14,11 @@ eg: MYSQL Workbench
 OR
 Run the sql script (as a query) in your DB tool
 
-4) Clone the project from git
+4) Download the project from git
 Note: This also has the sql script (Gateway.sql) in master branch
 Git repo: https://github.com/Sathsi/musala-soft-gateway-project/
 
-5) Navigate to the project directory which you checkout the gateway project
+5) Navigate to the project directory which you download the gateway project
 
 6)Edit the application.properties file with your DB details.
 
