@@ -4,7 +4,7 @@ Installation Guide
 
 Method 1:
 
-1) Copy the SQL scrip (.sql)  from the shared location to your local machine
+1) Copy the SQL scrip (Gateway.sql)  from the shared location to your local machine
 Note: This script has both Schema structure and the test data
 
 2) Import script file into the MYSQL DB tool which you use.
@@ -14,8 +14,9 @@ eg: MYSQL Workbench
 OR
 Run the sql script (as a query) in your DB tool
 
-4) Checkout the project from git (checkout the develop branch)
-Git repo:
+4) Clone the project from git (checkout the develop branch)
+Note: This also has the sql script ((Gateway.sql)) in master branch
+Git repo: https://github.com/Sathsi/musala-soft-gateway-project/
 
 5) Navigate to the project directory which you checkout the gateway project
 
