@@ -1,5 +1,3 @@
-# musala-soft-gateway-project
-This Repository contains Gateway API
 This Repository contains Gateway API
 
 Installation Guide
@@ -16,24 +14,27 @@ eg: MYSQL Workbench
 OR
 Run the sql script (as a query) in your DB tool
 
-4) Checkout the project from git
+4) Checkout the project from git (checkout the develop branch)
 Git repo:
 
 5) Navigate to the project directory which you checkout the gateway project
 
-6) Build the project
+6)Edit the application.properties file with your DB details.
+
+7) Build the project
 command: mvn clean install
 
-7) After build success, navigate to the target directory
+8) After build success, navigate to the target directory
 
-8) Launch the executable JAR file (com.musala.gateways.api-0.0.1.jar) from the command line
+9) Launch the executable JAR file (com.musala.gateways.api-0.0.1.jar) from the command line
 command: java -jar com.musala.gateways.api-0.0.1.jar
 
-9) Once application is stared you will be able to use the gateway APIs
+10) Once application is stared you will be able to use the gateway APIs
 swagger url: http://localhost:8080/swagger-ui.html#
 
 OR
 Method 2:
+Note: For this method you need to configure database as it is in application.properties file
 1) Follow the step 3 to step 5 in Method 1
 2) Copy the jar file(com.musala.gateways.api-0.0.1.jar) from the shared location to your local machine
-3) Follow the step 8 to step 9 in Method 1
+3) Follow the step 9 to step 10 in Method 1
