@@ -15,7 +15,7 @@ OR
 Run the sql script (as a query) in your DB tool
 
 4) Clone the project from git (checkout the develop branch)
-Note: This also has the sql script ((Gateway.sql)) in master branch
+Note: This also has the sql script ((Gateway.sql)) in main branch
 Git repo: https://github.com/Sathsi/musala-soft-gateway-project/
 
 5) Navigate to the project directory which you checkout the gateway project
