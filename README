@@ -39,3 +39,22 @@ Note: For this method you need to configure database as it is in application.pro
 1) Follow the step 3 to step 5 in Method 1
 2) Copy the jar file(com.musala.gateways.api-0.0.1.jar) from the shared location to your local machine
 3) Follow the step 9 to step 10 in Method 1
+
+_________________________________________
+
+Sample Json requests
+
+Create Gateway:
+{
+  "devices": [],
+  "ipv4Address": "176.8.9.28",
+  "name": "ARRIS NVG448",
+  "serialNumber": "MV1921VS004Q"
+}
+
+Create Device:
+{
+  "gatewaySerialNumber": "MV1921VS004Q",
+  "status": "online",
+  "vendor": "Kim"
+}
